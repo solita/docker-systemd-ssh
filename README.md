@@ -8,9 +8,7 @@
 
 ## Running
 
-You need to add a couple of flags to the `docker run` command to make `systemd` play nice with Docker:
-
-    docker run --stop-signal=SIGRTMIN+3 --tmpfs /run --tmpfs /run/lock -v /sys/fs/cgroup:/sys/fs/cgroup:ro YOUR_IMAGE
+See the sections [Configuring the Docker host](https://github.com/solita/docker-systemd#configuring-the-docker-host) and [Running](https://github.com/solita/docker-systemd#running) in the README of [solita/ubuntu-systemd](https://github.com/solita/docker-systemd), on which this image is based.
 
 ## License
 
