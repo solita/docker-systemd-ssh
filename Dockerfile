@@ -1,8 +1,8 @@
-FROM solita/ubuntu-systemd:16.04
+FROM solita/centos-systemd:7
 
 EXPOSE 22
 
-RUN apt-get update && apt-get install -y openssh-server
+RUN yum install -y openssh-server
 RUN rm -rf /etc/ssh/ssh_host*
 
 COPY ssh-host-key.service /etc/systemd/system/

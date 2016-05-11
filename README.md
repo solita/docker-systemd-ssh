@@ -1,6 +1,6 @@
-# solita/ubuntu-systemd-ssh
+# solita/centos-systemd-ssh
 
-[`solita/ubuntu-systemd`](https://hub.docker.com/r/solita/ubuntu-systemd/) + an SSH server.
+[`solita/centos-systemd`](https://hub.docker.com/r/solita/centos-systemd/) + an SSH server.
 
 ## Supported tags
 
