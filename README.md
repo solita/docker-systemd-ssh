@@ -4,7 +4,7 @@
 
 ## Supported tags
 
-* `latest`, `16.04`
+* `latest`, `7`
 
 ## Running
 
