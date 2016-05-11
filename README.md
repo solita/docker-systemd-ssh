@@ -8,9 +8,7 @@
 
 ## Running
 
-You need to add a couple of flags to the `docker run` command to make `systemd` play nice with Docker:
-
-    docker run --stop-signal=SIGRTMIN+3 --tmpfs /run --tmpfs /run/lock -v /sys/fs/cgroup:/sys/fs/cgroup:ro YOUR_IMAGE
+See the sections [Configuring the Docker host](https://github.com/solita/docker-systemd/tree/centos-7#configuring-the-docker-host) and [Running](https://github.com/solita/docker-systemd/tree/centos-7#running) in the README of [solita/centos-systemd](https://github.com/solita/docker-systemd/tree/centos-7), on which this image is based.
 
 ## License
 
